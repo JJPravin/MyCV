@@ -1379,3 +1379,14 @@ button:focus {
         font-size: 14px !important;
     }
 }
+.snowflake {
+  width: var(--size);
+  height: var(--size);
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -5vh;
+  left: var(--left);
+  animation: snowfall var(--speed) linear infinite;
+  animation-delay: var(--delay);
+}
