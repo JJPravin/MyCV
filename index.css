@@ -38,7 +38,7 @@ section [class^="container"] {
   }
   
   .navbar {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
   }
   
   .navbar-nav .nav-link {
